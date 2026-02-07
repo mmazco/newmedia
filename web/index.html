@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follow the Money</title>
+    <link rel="icon" type="image/svg+xml" href="/static/assets/favicon.svg">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <svg class="logo-globe" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" onclick="backToSelector()" style="cursor:pointer">
+                <circle cx="60" cy="60" r="50" fill="none" stroke="#1a3dcc" stroke-width="1.2"/>
+                <ellipse cx="60" cy="60" rx="25" ry="50" fill="none" stroke="#1a3dcc" stroke-width="1"/>
+                <ellipse cx="60" cy="60" rx="12" ry="50" fill="none" stroke="#1a3dcc" stroke-width="0.7"/>
+                <line x1="10" y1="60" x2="110" y2="60" stroke="#1a3dcc" stroke-width="0.8"/>
+                <ellipse cx="60" cy="60" rx="50" ry="18" fill="none" stroke="#1a3dcc" stroke-width="0.7"/>
+                <ellipse cx="60" cy="40" rx="46" ry="12" fill="none" stroke="#1a3dcc" stroke-width="0.5"/>
+                <ellipse cx="60" cy="80" rx="46" ry="12" fill="none" stroke="#1a3dcc" stroke-width="0.5"/>
+            </svg>
+            <h1>Follow the Money</h1>
+            <p class="subtitle">"Who funds corporate media?" with your favorite hosts.</p>
+        </header>
+
+        <div class="characters">
+            <div class="character reporter">
+                <img src="/static/assets/reporter.png" alt="Street Reporter">
+                <div class="character-name">Andrew</div>
+                <div class="character-label">Reporter</div>
+                <div class="character-role">Investigative Journalist</div>
+            </div>
+            <div class="character insider">
+                <img src="/static/assets/insider.webp" alt="Insider">
+                <div class="character-name">FJ</div>
+                <div class="character-label">Insider</div>
+                <div class="character-role">Industry Veteran</div>
+            </div>
+        </div>
+
+        <section class="selector">
+            <h2>Select a publication to investigate</h2>
+            <div id="pub-grid" class="pub-grid"></div>
+        </section>
+
+        <section id="investigation" class="investigation hidden">
+            <div class="investigation-header">
+                <h2 id="pub-title"></h2>
+                <p id="pub-owner" class="owner-line"></p>
+                <div id="pub-meta" class="meta-badges"></div>
+            </div>
+
+            <div class="agents-intro">
+                <div class="agent-badge reporter">
+                    <img src="/static/assets/reporter.png" alt="Reporter">
+                    <div>
+                        <div class="agent-name">Andrew</div>
+                        <strong>Reporter</strong>
+                        <span class="agent-role">Investigative Journalist</span>
+                    </div>
+                </div>
+                <div class="agent-badge insider">
+                    <img src="/static/assets/insider.webp" alt="Insider">
+                    <div>
+                        <div class="agent-name">FJ</div>
+                        <strong>Insider</strong>
+                        <span class="agent-role">Industry Veteran</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls controls-top">
+                <button id="play-all-btn" class="btn btn-primary hidden" onclick="playAll()">
+                    Start Investigation
+                </button>
+                <button id="stop-btn" class="btn btn-secondary hidden" onclick="stopPlayback()">
+                    Stop
+                </button>
+            </div>
+
+            <div id="conversation" class="conversation"></div>
+
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Agents are investigating...</p>
+            </div>
+
+        </section>
+
+        <footer>
+            <p>
+                Built with
+                Claude +
+                <a href="https://docs.cartesia.ai/" target="_blank">Cartesia</a> +
+                Notion
+                for <a href="https://cerebralvalley.ai/e/cartesia-voice-agents-hackathon" target="_blank">Voice Agents Hackathon</a>
+            </p>
+            <p class="credit">
+                Bias & factuality ratings via <a href="https://ground.news/" target="_blank">Ground News</a>
+            </p>
+            <p class="credit">
+                Made by <a href="https://x.com/mmazco" target="_blank">@mmazco</a>
+            </p>
+            <div class="footer-image">
+                <a href="https://www.blind-magazine.com/en/news/lars-tunbjork-a-view-from-the-side/" target="_blank">
+                    <img src="/static/assets/hero.jpeg" alt="Öland, Lars Tunbjörk (1991)">
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

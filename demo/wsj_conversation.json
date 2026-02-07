@@ -1,0 +1,26 @@
+{
+  "publication": "The Wall Street Journal",
+  "owner": "News Corp (Rupert Murdoch / Murdoch Family Trust)",
+  "turns": [
+    {
+      "agent": "Street Reporter",
+      "text": "Let me cut through the corporate jargon and tell you exactly who owns The Wall Street Journal \u2014 because this September 2025 deal changed everything. The Murdoch family has reached a deal that will see Rupert Murdoch's politically conservative eldest son Lachlan Murdoch cement control of the family media empire that includes Fox News and the Wall Street Journal.\n\nHere's what just happened. The 94-year-old Rupert Murdoch just pulled off the ultimate power play. At current market values of $56.81 for Fox and $29.94 for News Corp, the proceeds would be approximately $1.4 billion each. But The New York Times, first to report on the resolution of the dispute, cited a person familiar with the matter who said the entire deal comes to $3.3 billion, with each of the three siblings getting $1.1 billion. That's right \u2014 Rupert bought out his three other kids for over a billion each to keep his media empire conservative.\n\nRupert Murdoch decided on Lachlan, who shares his conservative outlook; if anything, the son is considered more ideological than his father.",
+      "audio_path": "demo/audio/wsj/turn_00_street_reporter.wav"
+    },
+    {
+      "agent": "Insider",
+      "text": "Oh bloody hell, now that's what I call a family Christmas dinner conversation. Rupert just spent over three billion to make sure his media empire stays as conservative as a Victorian dinner party \u2014 and we're talking about the same man who owns your morning business news alongside the evening's Fox News fever dreams.\n\nYou know what's delicious about this whole thing? A Nevada court already ruled that Rupert and Lachlan had \"acted in bad faith\" when they first tried this trust shuffle, but money talks louder than probate judges. When things get dire, Murdoch has a record of paying out \u2014 and apparently three kids getting a billion each is cheaper than letting them potentially turn Fox News into something resembling actual journalism.",
+      "audio_path": "demo/audio/wsj/turn_01_insider.wav"
+    },
+    {
+      "agent": "Street Reporter",
+      "text": "Exactly, Insider! You nailed it \u2014 the Nevada court basically called Rupert and Lachlan's scheme \"a carefully crafted charade\" and ruled they \"operated in 'bad faith'\" trying to steal his other kids' voting rights. But here's what's wild about that 3.3 billion dollar settlement you mentioned \u2014 that happened AFTER the court smackdown.\n\nThe Nevada commissioner basically told Rupert \"nice try, but you can't buy your way out of an irrevocable trust just because you want to keep Fox News conservative forever.\" His representatives argued that because Lachlan wouldn't change the conservative bent of the company's outlets, the amendment was in the financial interest of all the beneficiaries \u2014 even the ones who hated it. Talk about \"father knows best\" arrogance.\n\nSo what does a 94-year-old billionaire do when a Nevada court calls his bluff? He writes the biggest family buyout check in media history to make the problem disappear. Each of the other three siblings in the trust were awarded $1.1 ",
+      "audio_path": "demo/audio/wsj/turn_02_street_reporter.wav"
+    },
+    {
+      "agent": "Insider",
+      "text": "Absolutely brilliant \u2014 the classic Murdoch move when legal arguments fail: throw money at the problem until it goes away. What's delicious is that the Nevada commissioner called it \"bad faith\" and a \"carefully crafted charade\" in a 96-page ruling that basically said \"nice try, but we see right through you.\"\n\nBut here's the kicker \u2014 the settlement happened in September 2025, months after that humiliating court smackdown, and each sibling walked away with 1.1 billion. That's not just expensive, that's \"oops we got caught trying to rig democracy\" expensive. The old man literally paid three times what he bought Dow Jones for just to keep his precious conservative media machine intact.",
+      "audio_path": "demo/audio/wsj/turn_03_insider.wav"
+    }
+  ]
+}

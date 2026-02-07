@@ -1,0 +1,641 @@
+/* Follow the Money — Editorial, minimal, paper cut-out style */
+/* Inspired by Universe S/S, lobsteranatomy.com, Benjamin Edgar gravitational cutting mat */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+    --bg: #f0ede8;
+    --surface: #ffffff;
+    --border: #d4d0c8;
+    --text: #1a1a1a;
+    --text-dim: #6b6b6b;
+    --blue: #0099e6;
+    --blue-dark: #0077cc;
+    --reporter-color: #0038ff;
+    --insider-color: #cc3300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1.5rem 2rem;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 3rem 0 1rem;
+    position: relative;
+}
+
+.logo-globe {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    display: block;
+}
+
+header h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 2.8rem;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.subtitle {
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+
+/* Characters Section */
+.characters {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+    padding: 2.5rem 0 1.5rem;
+    position: relative;
+}
+
+.character {
+    text-align: center;
+    cursor: default;
+}
+
+.character img {
+    width: 160px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border: none;
+    filter: grayscale(20%) contrast(1.1);
+    transition: all 0.3s ease;
+    clip-path: polygon(5% 0%, 95% 2%, 98% 98%, 2% 96%);
+    background: var(--bg);
+}
+
+.character:hover img {
+    filter: grayscale(0%) contrast(1.05);
+    transform: translateY(-4px) rotate(-1deg);
+}
+
+.character-name {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 0.75rem;
+    color: var(--text);
+}
+
+.character-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-top: 0.15rem;
+}
+
+.character-role {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    font-style: italic;
+    margin-top: 0.1rem;
+}
+
+.character.reporter .character-label {
+    color: var(--reporter-color);
+}
+
+.character.insider .character-label {
+    color: var(--insider-color);
+}
+
+/* Publication Selector */
+.selector {
+    padding: 1rem 0 2rem;
+}
+
+.selector h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--text-dim);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.pub-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+}
+
+.pub-card {
+    background: var(--surface);
+    border: 1.5px solid var(--border);
+    padding: 1.25rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    clip-path: polygon(0% 1%, 99% 0%, 100% 99%, 1% 100%);
+}
+
+.pub-card:hover {
+    border-color: var(--text);
+    transform: translateY(-2px) rotate(-0.3deg);
+    box-shadow: 4px 4px 0 rgba(0,0,0,0.08);
+}
+
+.pub-card .pub-name {
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+.pub-card .pub-owner {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-bottom: 0.5rem;
+}
+
+.pub-card .pub-bias {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-dim);
+    border-top: 1px solid var(--border);
+    padding-top: 0.5rem;
+}
+
+.pub-card .pub-arrow {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    color: var(--text-dim);
+    transition: transform 0.2s;
+}
+
+.pub-card:hover .pub-arrow {
+    transform: translateX(3px);
+    color: var(--text);
+}
+
+/* Investigation View */
+.investigation {
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.investigation-header {
+    text-align: center;
+    padding: 1.5rem 0;
+    border-bottom: 1.5px solid var(--text);
+    margin-bottom: 2rem;
+}
+
+.investigation-header h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+}
+
+.owner-line {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+.meta-badges {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.badge {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border: 1px solid var(--border);
+    padding: 0.25rem 0.6rem;
+    background: var(--surface);
+}
+
+/* Agent Intro - compact */
+.agents-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1.5rem 0;
+}
+
+.agent-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.agent-badge img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 0;
+    clip-path: polygon(5% 0%, 95% 2%, 98% 98%, 2% 96%);
+}
+
+.agent-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.agent-badge strong {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: block;
+}
+
+.agent-badge .agent-role {
+    font-size: 0.65rem;
+    color: var(--text-dim);
+    font-style: italic;
+}
+
+.agent-badge.reporter strong {
+    color: var(--reporter-color);
+}
+
+.agent-badge.insider strong {
+    color: var(--insider-color);
+}
+
+.vs {
+    font-family: 'Space Mono', monospace;
+    color: var(--text-dim);
+    font-size: 0.8rem;
+}
+
+/* Conversation */
+.conversation {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 0 2rem;
+}
+
+.turn {
+    background: var(--surface);
+    border: 1.5px solid var(--border);
+    position: relative;
+    clip-path: polygon(0% 0.5%, 99.5% 0%, 100% 99.5%, 0.5% 100%);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.turn.playing {
+    border-color: var(--blue);
+    box-shadow: 3px 3px 0 rgba(0, 153, 230, 0.15);
+    transform: rotate(-0.2deg);
+    cursor: default;
+}
+
+.turn-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+}
+
+.turn-agent {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.turn-agent img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    object-position: top;
+    clip-path: polygon(5% 0%, 95% 2%, 98% 98%, 2% 96%);
+}
+
+.turn-agent-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text);
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.turn-agent-role {
+    font-size: 0.65rem;
+    color: var(--text-dim);
+    font-weight: 400;
+}
+
+.turn.reporter .turn-agent-role {
+    color: var(--reporter-color);
+}
+
+.turn.insider .turn-agent-role {
+    color: var(--insider-color);
+}
+
+.turn-expand {
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    color: var(--text-dim);
+    transition: transform 0.3s;
+    line-height: 1;
+}
+
+.turn:not(.collapsed) .turn-expand {
+    transform: rotate(45deg);
+}
+
+/* Collapsed state */
+.turn-body {
+    padding: 0 1.5rem 1.25rem;
+    border-top: 1px solid var(--border);
+    max-height: 600px;
+    overflow: hidden;
+    opacity: 1;
+    transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease;
+}
+
+.turn.collapsed .turn-body {
+    max-height: 0;
+    opacity: 0;
+    padding: 0 1.5rem;
+    border-top-color: transparent;
+}
+
+.turn-text {
+    font-size: 0.95rem;
+    line-height: 1.75;
+    padding-top: 1rem;
+}
+
+/* Turn loader - investigating animation */
+.turn-loader {
+    background: var(--surface);
+    border: 1.5px solid var(--border);
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    clip-path: polygon(0% 0.5%, 99.5% 0%, 100% 99.5%, 0.5% 100%);
+    animation: fadeIn 0.3s ease;
+}
+
+.turn-loader .turn-agent-role {
+    font-style: italic;
+    color: var(--text-dim);
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+.turn-loader-dots span {
+    animation: dotBlink 1.4s infinite;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.2rem;
+    color: var(--text-dim);
+}
+
+.turn-loader-dots span:nth-child(2) { animation-delay: 0.2s; }
+.turn-loader-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes dotBlink {
+    0%, 20% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+
+.turn-status {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.55rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--text-dim);
+    opacity: 0.6;
+}
+
+.turn-play {
+    background: none;
+    border: 1.5px solid var(--border);
+    color: var(--text-dim);
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    font-size: 0.65rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    margin-top: 0.75rem;
+}
+
+.turn-play:hover {
+    border-color: var(--text);
+    color: var(--text);
+}
+
+/* Loading */
+.loading {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--border);
+    border-top-color: var(--blue);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.loading p {
+    font-family: 'Space Mono', monospace;
+    color: var(--text-dim);
+    font-size: 0.8rem;
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    padding: 1rem 0 2rem;
+    flex-wrap: wrap;
+}
+
+.controls-top {
+    padding: 0 0 1rem;
+}
+
+.btn {
+    font-family: 'Space Mono', monospace;
+    padding: 0.6rem 1.5rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border: 1.5px solid var(--text);
+    transition: all 0.2s;
+    background: none;
+    color: var(--text);
+}
+
+.btn-primary {
+    background: var(--blue);
+    border-color: var(--blue);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: var(--blue-dark);
+    border-color: var(--blue-dark);
+}
+
+.btn-secondary:hover,
+.btn-outline:hover {
+    background: var(--text);
+    color: var(--bg);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem 0 1rem;
+    border-top: 1.5px solid var(--text);
+    margin-top: 1rem;
+}
+
+footer p {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-dim);
+}
+
+footer a {
+    color: var(--text);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+}
+
+footer a:hover {
+    border-bottom-color: var(--text);
+}
+
+.credit {
+    margin-top: 0.4rem;
+}
+
+.footer-image {
+    width: 120px;
+    margin: 1.5rem auto 0;
+    clip-path: polygon(2% 0%, 98% 1%, 100% 99%, 0% 97%);
+}
+
+.footer-image img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    object-position: center 30%;
+    filter: contrast(1.05) saturate(0.85);
+    display: block;
+}
+
+/* Utility */
+.hidden {
+    display: none !important;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .characters {
+        gap: 2rem;
+    }
+
+    .character img {
+        width: 120px;
+        height: 150px;
+    }
+
+    .pub-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .agents-intro {
+        gap: 1rem;
+    }
+
+    .container {
+        padding: 0 1rem 1rem;
+    }
+
+    header {
+        padding: 2rem 1rem 1.5rem;
+    }
+}

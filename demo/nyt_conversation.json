@@ -1,0 +1,26 @@
+{
+  "publication": "The New York Times",
+  "owner": "The New York Times Company (Ochs-Sulzberger family)",
+  "turns": [
+    {
+      "agent": "Street Reporter",
+      "text": "Alright, here's what really owns America's \"paper of record\" - and it's not what most people think. The Ochs-Sulzberger family controls The New York Times through a family trust and special Class B voting shares, giving them the power to elect 70% of the board of directors even though they only own about 20% of the total equity.\n\nHere's the kicker - even if someone bought every single publicly traded share on the market, they still couldn't override the Sulzberger family's voting power because those Class B shares aren't for sale. It's a fortress built to keep outsiders out, wrapped in the language of \"protecting journalistic independence.\"\n\nSo when people talk about shareholder democracy or market accountability, the Times operates under an entirely different system - the ultimate strategic and editorial direction is secured by a small group of family descendants while large institutional investors like Vanguard and BlackRock",
+      "audio_path": "demo/audio/nyt/turn_00_street_reporter.wav"
+    },
+    {
+      "agent": "Insider",
+      "text": "Oh, the beautiful irony! The Times went public in 1967 specifically to \"preserve the Sulzberger's family control\" through this exact scheme \u2014 they literally designed the fortress to keep out exactly the kind of public accountability you'd think a public company should have.\n\nAnd here's the delicious part: institutional investors like BlackRock and State Street have been campaigning against dual-class structures for years, yet they still pour money into the Times knowing they're essentially buying expensive wallpaper. A.G. Sulzberger owns just 1.4% of the company's economic value but controls 94.6% of the voting Class B shares \u2014 it's shareholder democracy theater at its finest.\n\nAccording to Ground News, this creates the perfect setup for what I like to call \"inherited editorial independence\" \u2014 where the same family that's controlled America's paper of record since McKinley was president gets to decide what counts as news fit to print, forever and ever, amen.",
+      "audio_path": "demo/audio/nyt/turn_01_insider.wav"
+    },
+    {
+      "agent": "Street Reporter",
+      "text": "Exactly right \u2014 this is shareholder democracy theater at its most masterful. The latest proxy statement confirms the Ochs-Sulzberger Trust owns 94.6% of Class B stock, while A.G. Sulzberger personally holds just 1.4% of Class A shares \u2014 meaning he controls almost the entire board with less economic skin in the game than a mid-tier pension fund.\n\nAnd here's where it gets really perverse: Class A stockholders can only elect 30% of directors, while Class B holders elect nine out of thirteen directors. So Vanguard and BlackRock can own billions in Times stock and still get outvoted by a family trust every single time. It's like being invited to dinner but only getting to pick the appetizer while the hosts decide everything else, including whether you're allowed back.\n\nThe \"inherited editorial independence\" you mentioned? That dual-class structure is specifically designed to protect journalistic independence from outside business pressures \u2014 but who's protecting journalism from *inside* pressures when the same bloo",
+      "audio_path": "demo/audio/nyt/turn_02_street_reporter.wav"
+    },
+    {
+      "agent": "Insider",
+      "text": "Right, because the Times has been strictly controlled and operated to promote the political ideology of the Ochs/Sulzberger family for over a century now! And here's the beautiful contradiction: while all voting shares are controlled by the Ochs-Sulzberger Family Trust, the trust's \"primary objective\" is that the Times continues \"as an independent newspaper, entirely fearless, free of ulterior influence\".\n\nThe delicious irony is that the family's Jewish history has been the subject of scrutiny, especially when the paper was accused of turning a blind eye to Holocaust atrocities \u2014 they literally buried stories that might have saved lives to avoid appearing biased. Independence through inherited editorial control, what could possibly go wrong?",
+      "audio_path": "demo/audio/nyt/turn_03_insider.wav"
+    }
+  ]
+}

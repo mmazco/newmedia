@@ -1,0 +1,26 @@
+{
+  "publication": "The Washington Post",
+  "owner": "Nash Holdings LLC (Jeff Bezos)",
+  "turns": [
+    {
+      "agent": "Street Reporter",
+      "text": "Let me break down who really owns The Washington Post and what that ownership means. Jeff Bezos bought the Post through Nash Holdings LLC for $250 million in August 2013, and here's what's happened since: Just this week, Bezos laid off 300 employees \u2014 that's 30% of the staff \u2014 and shuttered the sports and books sections entirely.\n\nBut here's the real story nobody's talking about enough \u2014 this isn't just about newspaper economics. One of the people Bezos just fired was Caroline O'Donovan, the Post's Amazon beat reporter, while the Post under his ownership has frequently published stories that upset the Trump administration whose vindictive approach could pose problems for Amazon and Blue Origin.\n\nBezos got a full embrace from the Trump administration just this week when Pete Hegseth visited Blue Origin to discuss the space company's latest partnership with the government. You see the pattern here? When your owner has billions in government contracts at stake, editorial independence becomes a luxury the newsroom can't afford.",
+      "audio_path": "demo/audio/wapo/turn_00_street_reporter.wav"
+    },
+    {
+      "agent": "Insider",
+      "text": "Ah yes, I've watched this charade play out in boardrooms for decades \u2014 the Amazon beat reporter gets the axe while Jeff schmoozes with defense officials about Blue Origin contracts. Caroline O'Donovan, who'd been covering Amazon since 2022, was among the 300 staffers laid off, and she noted the bitter irony in her final post: \"Nearly every story I published at The Post included the disclaimer 'Amazon founder Jeff Bezos owns The Washington Post.' That statement seems especially stark today.\" \n\nBezos has essentially gutted the one reporter whose job it was to hold his empire accountable while simultaneously playing footsie with Trump's team \u2014 because nothing says \"journalistic integrity\" quite like firing your Amazon watchdog right before Pentagon contracts get renewed. The optics are so transparently corrupt it would be funny if it weren't so bloody predictable.",
+      "audio_path": "demo/audio/wapo/turn_01_insider.wav"
+    },
+    {
+      "agent": "Street Reporter",
+      "text": "Exactly. You nailed it. In another post, O'Donovan wrote, \"Nearly every story I published at The Post included the disclaimer 'Amazon founder Jeff Bezos owns The Washington Post.' That statement seems especially stark today.\" Think about that disclaimer \u2014 she had to remind readers about this conflict of interest in every single piece she wrote, and now she's gone.Here's the smoking gun. Defense Secretary Pete Hegseth visited Blue Origin on February 2nd, 2026, heaping praise on Jeff Bezos-backed Blue Origin during his \"Arsenal of Freedom\" tour. Hegseth said Blue Origin is likely to do \"plenty of winning\" as the Pentagon hands out additional contracts.\n\nAnd the money? Blue Origin won $2.3 billion in the same tranche of Space Force launch contracts through 2029, while Blue Origin has received billions of dollars in defense contracts to build technology that uses space lasers, nuclear-powered spacecraft, and a processing facility for satellites. Meanwhile, Amazon Web Services was awarded a $581 million contract to support the US Air Force's Cloud One program.\n\nThe timeline is brutal \u2014 fire your Amazon watchdog on Wednesday, host the Defense Secretary at your space company on Monday, get billions in government contracts flowing. When you control billions in defense spending through your space company and cloud services, having a reporter",
+      "audio_path": "demo/audio/wapo/turn_02_street_reporter.wav"
+    },
+    {
+      "agent": "Insider",
+      "text": "Oh, the optics could not be more transparently corrupt if Bezos had handed Hegseth a briefcase full of cash on live television. Hegseth literally used Blue Origin's 750,000-square-foot manufacturing complex as a stage to announce his \"Arsenal of Freedom\" tour, while praising Blue Origin's launch systems as \"crucial\" for rapid-response space missions and telling workers \"You guys were under budget and ahead of schedule.\"\n\nThe timeline is so brazen it's almost cartoonish \u2014 fire your Amazon watchdog on Wednesday, roll out the red carpet for the Defense Secretary on Monday, and collect billions in contracts while your newspaper publishes exactly zero follow-up stories about this cozy arrangement. It's the kind of pay-to-play politics that would make a Gilded Age robber baron blush, except now they own the very newspapers that should be exposing them.",
+      "audio_path": "demo/audio/wapo/turn_03_insider.wav"
+    }
+  ]
+}

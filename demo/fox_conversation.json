@@ -1,0 +1,26 @@
+{
+  "publication": "Fox News",
+  "owner": "Fox Corporation (Murdoch Family Trust)",
+  "turns": [
+    {
+      "agent": "Street Reporter",
+      "text": "Alright, here's what's really happening with Fox News ownership \u2014 and it's wild how they literally bought their way out of a family democracy.\n\nSo who owns Fox News? It's controlled by the Murdoch family through Fox Corporation, but as of September 2025, Lachlan Murdoch just pulled off a massive power grab that locked in conservative control until 2050. Think about that \u2014 one family engineered a deal that guarantees their political worldview will shape American news for the next quarter century.\n\nHere's how they did it: Rupert and Lachlan basically bought out the other three siblings \u2014 James, Elisabeth, and Prudence \u2014 for over $3 billion, removing them from any voting power. James had been increasingly vocal against Fox's January 6th coverage and climate change denial, so they eliminated the threat of internal dissent by writing him a check.\n\nThe scary part? This new trust structure expires in 2050, meaning Lachlan has sole voting control for the next 25 years",
+      "audio_path": "demo/audio/fox/turn_00_street_reporter.wav"
+    },
+    {
+      "agent": "Insider",
+      "text": "Oh brilliant, they've basically turned succession planning into a forty billion dollar family therapy session with lawyers. The new trust that hands the keys over to Lachlan Murdoch will expire in 2050 \u2014 imagine writing your political legacy into a legal document with a calendar reminder for the grandkids.\n\nWhat really gets me is the court actually rejected their first attempt, saying Rupert and Lachlan had acted in \"bad faith\" \u2014 so they just went shopping for a different solution and found one that cost three billion dollars. That's the media mogul equivalent of \"if at first you don't succeed, throw more money at it until democracy goes away.\"\n\nAnd here's the kicker \u2014 the percentage of voting shares held by the new family trust has been diluted, from roughly 40% to around one-third because they had to sell shares to fund the buyout, yet somehow Lachlan ends up with more control than ever. It's like shrinking your slice of pie but making sure no one else gets a fork.",
+      "audio_path": "demo/audio/fox/turn_01_insider.wav"
+    },
+    {
+      "agent": "Street Reporter",
+      "text": "Exactly \u2014 you've hit on the crucial detail that most people are missing. The Nevada probate commissioner ruled that Rupert and Lachlan Murdoch operated in \"bad faith\" and called their scheme a \"carefully crafted charade\" to permanently cement Lachlan's control. That's not just legal jargon \u2014 that's a judge saying they tried to manipulate the system.\n\nBut wait, it gets better. According to The New York Times, an episode of \"Succession\" about Logan Roy's death actually caused the Murdoch children to discuss how to avoid that outcome \u2014 and the commissioner even cited the HBO series in his opinion. They literally watched a TV show about media dynasty corruption and thought \"let's not do that\" \u2014 then proceeded to do exactly that.\n\nHere's what's really happening: Murdoch feared his more left-aligned children would edge out Lachlan and change the editorial direction. So when democracy within his own family threatened his political agenda, he tried to buy his way out of it. The court saw right through it and shut it down.",
+      "audio_path": "demo/audio/fox/turn_02_street_reporter.wav"
+    },
+    {
+      "agent": "Insider",
+      "text": "Ah yes, the delicious irony of Succession becoming a cautionary tale for the very people it parodied. According to the Times, an episode of \"Succession\" about the death of the fictional family patriarch Logan Roy caused Murdoch's children to hold discussions about how to avoid a TV-drama-worthy outcome within their own family \u2014 and then they proceeded to act out exactly the kind of boardroom bloodbath that made the show must-watch television.\n\nBut here's what really tells you everything about the media mogul mindset: Gorman's 96-page opinion included a description of Rupert Murdoch's plan as \"a carefully crafted charade\" to \"permanently cement Lachlan Murdoch's executive roles\" in the Murdoch companies, without regard to the effects of such control on the companies or other family members. When even a Nevada probate commissioner \u2014 in a state literally designed to coddle rich people's family trusts \u2014 calls your scheme a \"charade,\" you've officially crossed from family drama into legal farce.\n\nThe fact that former Attorney General Bill Barr, a representative appointed to the trust, \"demonstrated a dishonesty of purpose and m",
+      "audio_path": "demo/audio/fox/turn_03_insider.wav"
+    }
+  ]
+}

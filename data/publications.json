@@ -1,0 +1,204 @@
+{
+  "publications": [
+    {
+      "id": "wapo",
+      "name": "The Washington Post",
+      "owner": "Nash Holdings LLC (Jeff Bezos)",
+      "year_acquired": "2013",
+      "purchase_price": "$250 million",
+      "ownership_structure": "Private company, 100% owned by Bezos",
+      "parent_company": "Nash Holdings",
+      "conflicts_of_interest": [
+        "Amazon founder and CEO (through 2021)",
+        "Amazon AWS contracts with US government",
+        "Blue Origin space contracts with NASA and Department of Defense",
+        "Personal wealth tied to government policy on tech regulation"
+      ],
+      "recent_controversies": [
+        "Feb 2025: Bezos announced opinion section would only publish pieces supporting 'personal liberties and free markets'",
+        "Oct 2024: Killed presidential endorsement of Kamala Harris",
+        "Jan 2025: Editorial cartoonist Ann Telnaes resigned over censorship of cartoon criticizing billionaire influence on Trump",
+        "Feb 2025: 75,000+ subscribers canceled after opinion section announcement",
+        "Feb 2026: Announced 300 employee layoffs, closing sports and books coverage"
+      ],
+      "ground_news_rating": {
+        "bias": "Leans Left (historically), shifting Center/Right under Bezos directives",
+        "factuality": "High",
+        "ownership_category": "Billionaire-owned independent"
+      },
+      "current_status": "Under significant editorial transformation and subscriber losses",
+      "voice_agent_angles": {
+        "street_reporter": "Follow the Amazon money - government contracts, space deals, tech regulation",
+        "insider": "Billionaire toys with democracy's watchdog, proves money talks louder than journalism"
+      }
+    },
+    {
+      "id": "fox",
+      "name": "Fox News",
+      "owner": "Fox Corporation (Murdoch Family Trust)",
+      "year_acquired": "1996 (founded), 2019 (spun off from 21st Century Fox)",
+      "ownership_structure": "Dual-class share system - Murdoch family controls ~40% voting power",
+      "parent_company": "Fox Corporation",
+      "controlling_family": "Murdoch Family",
+      "key_figure": "Lachlan Murdoch (secured full control September 2025)",
+      "conflicts_of_interest": [
+        "Murdoch family also owns Wall Street Journal and New York Post",
+        "Political alignment with Republican Party and conservative causes",
+        "Cross-ownership creates coordinated messaging across print and broadcast",
+        "Trust structure ensures conservative editorial control through 2050"
+      ],
+      "recent_controversies": [
+        "Sept 2025: Lachlan Murdoch secured control in $3.3 billion trust deal ensuring conservative slant until 2050",
+        "Dominion Voting Systems defamation settlement (2023) - $787.5 million",
+        "Climate change denial platform despite scientific consensus",
+        "Jan 6 coverage described as downplaying insurrection"
+      ],
+      "ground_news_rating": {
+        "bias": "Far Right",
+        "factuality": "Mixed (controversy over accuracy and misleading reporting)",
+        "ownership_category": "Media conglomerate / Family dynasty"
+      },
+      "current_status": "Family dynasty control guaranteed through mid-century, ongoing defamation litigation",
+      "voice_agent_angles": {
+        "street_reporter": "Dynasty politics - how one family shapes American conservative narrative for profit",
+        "insider": "The Murdochs turned news into a family business, literally locked in conservative slant till 2050"
+      }
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "owner": "Warner Bros. Discovery",
+      "year_acquired": "2022 (via Discovery merger with WarnerMedia)",
+      "ownership_structure": "Public company (traded as WBD), institutional investors own 54%+",
+      "parent_company": "Warner Bros. Discovery",
+      "potential_future_owner": "Skydance Media (David Ellison) - pending acquisition",
+      "conflicts_of_interest": [
+        "Corporate parent has extensive entertainment and business interests requiring regulatory approval",
+        "Susceptible to political pressure from administration via FCC and DOJ",
+        "Sept 2025: Potential acquisition by Trump-aligned Ellison family",
+        "Track record of capitulating to Trump administration demands"
+      ],
+      "recent_controversies": [
+        "Sept 2025: Warner Bros. Discovery potentially being acquired by Skydance (Ellison family - Trump supporters)",
+        "Would put CNN under control of 'vocal Trump supporters who pledged to use power to advance Trump's agenda'",
+        "March 2025: MSNBC (Comcast) overhauled progressive hosts of color after Trump FCC pressure",
+        "Accusations of both liberal bias and false balance to support conservatives",
+        "Viewership down 49% from 2021 peak"
+      ],
+      "ground_news_rating": {
+        "bias": "Leans Left (but shifting toward center under corporate pressure)",
+        "factuality": "High (generally)",
+        "ownership_category": "Corporate conglomerate"
+      },
+      "current_status": "In flux - potential ownership change to Trump-aligned billionaires would dramatically shift editorial",
+      "voice_agent_angles": {
+        "street_reporter": "Corporate consolidation meets political pressure - CNN's independence evaporating",
+        "insider": "They used to call it 'The Most Trusted Name in News,' now it's 'Who Owns Us This Week?'"
+      }
+    },
+    {
+      "id": "nyt",
+      "name": "The New York Times",
+      "owner": "The New York Times Company (Ochs-Sulzberger family)",
+      "year_acquired": "1896 (Adolph Ochs purchased)",
+      "ownership_structure": "Publicly traded but controlled by family trust with dual-class shares - family controls 95% voting power",
+      "parent_company": "The New York Times Company",
+      "controlling_family": "Ochs-Sulzberger family (5 generations)",
+      "key_figure": "A.G. Sulzberger (Chairman and Publisher)",
+      "conflicts_of_interest": [
+        "Family dynasty controlling 'paper of record' through unequal share structure",
+        "Elite institutional audience (56% college-educated, highest of any paper)",
+        "Audience skews 'older, richer, whiter, and more liberal' per Vox",
+        "Financial interests tied to maintaining establishment credibility"
+      ],
+      "recent_controversies": [
+        "Gaza war coverage protests - accused of 'complicity in laundering genocide'",
+        "Nov 2023: Sit-in demanding ceasefire coverage",
+        "July 2025: Protesters spray-painted 'NYT Lies, Gaza dies' on building",
+        "Aug 2025: Executive editor's residence splattered with red paint",
+        "Criticized for both-sidesism and false balance on climate, Trump"
+      ],
+      "ground_news_rating": {
+        "bias": "Leans Left (editorial), Center (news coverage with both-sides tendency)",
+        "factuality": "Very High",
+        "ownership_category": "Media dynasty / Family trust"
+      },
+      "subscriber_data": {
+        "total_subscribers": "11.88 million (Aug 2025)",
+        "digital_only": "11.3 million",
+        "print": "580,000",
+        "goal": "15 million by 2027"
+      },
+      "current_status": "Legacy media dynasty, highest subscriber count in US, facing protests over editorial choices",
+      "voice_agent_angles": {
+        "street_reporter": "America's 'paper of record' is a family heirloom - 95% voting control, undemocratic ownership",
+        "insider": "The Gray Lady's been run by the same family since 1896. Democracy dies in... inherited wealth?"
+      }
+    },
+    {
+      "id": "wsj",
+      "name": "The Wall Street Journal",
+      "owner": "News Corp (Rupert Murdoch / Murdoch Family Trust)",
+      "year_acquired": "2007",
+      "purchase_price": "$5 billion (Dow Jones acquisition)",
+      "ownership_structure": "News Corp subsidiary, Murdoch family controls via trust",
+      "parent_company": "News Corp",
+      "controlling_family": "Murdoch Family",
+      "conflicts_of_interest": [
+        "Same ownership as Fox News and New York Post - coordinated conservative ecosystem",
+        "Sept 2025: Lachlan Murdoch secured control alongside Fox News in trust restructuring",
+        "Business coverage affects corporate interests of parent company",
+        "Conservative editorial page vs. news division creates internal tensions"
+      ],
+      "editorial_structure": "Sharp divide between news (credible) and editorial (conservative opinion)",
+      "recent_controversies": [
+        "Sept 2025: Came under Lachlan Murdoch's consolidated control with Fox News",
+        "Editorial page consistently pushes conservative economic policy",
+        "News division respected, but owned by family with clear political agenda",
+        "Murdoch acquisition opposed by Bancroft family (Dow Jones heirs) who feared editorial interference"
+      ],
+      "ground_news_rating": {
+        "bias": "Center-Right (news section), Right (editorial/opinion)",
+        "factuality": "High (news section)",
+        "ownership_category": "Media conglomerate / Family dynasty"
+      },
+      "current_status": "Respected business journalism under ideological family ownership, part of Murdoch empire",
+      "voice_agent_angles": {
+        "street_reporter": "Follow the Murdoch money - Fox News funds your business news source",
+        "insider": "The Journal's newsroom hates admitting they share a boss with Fox & Friends"
+      }
+    }
+  ],
+  "metadata": {
+    "dataset_created": "February 2026",
+    "sources": [
+      "Ground News ownership database",
+      "Wikipedia (current as of Feb 2026)",
+      "FAIR media analysis (2025)",
+      "Press Gazette rankings (2024-2025)",
+      "Recent news articles on media ownership changes"
+    ],
+    "ground_news_categories": {
+      "ownership_types": [
+        "Billionaire-owned independent",
+        "Media conglomerate",
+        "Family dynasty",
+        "Corporate conglomerate"
+      ],
+      "bias_ratings": [
+        "Far Left",
+        "Left",
+        "Leans Left",
+        "Center",
+        "Leans Right",
+        "Right",
+        "Far Right"
+      ]
+    },
+    "voice_agent_strategy": {
+      "street_reporter_focus": "Follow money trails, government connections, conflicts of interest",
+      "insider_focus": "Behind-scenes gossip, power dynamics, hypocrisy and irony",
+      "conversation_structure": "Reporter investigates facts → Insider adds cynical commentary → Both debate implications"
+    }
+  }
+}

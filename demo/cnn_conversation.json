@@ -1,0 +1,26 @@
+{
+  "publication": "CNN",
+  "owner": "Warner Bros. Discovery",
+  "turns": [
+    {
+      "agent": "Street Reporter",
+      "text": "Look, what we're watching with CNN right now is basically a corporate shell game where nobody wants to claim responsibility for the editorial direction. Paramount offered $30 per share for WBD, including CNN and the rest of its cable channels, while Netflix offered $27.75 per share for Warner Bros. and HBO but specifically wants to dump the cable networks including CNN.\n\nHere's the key part that should make your blood boil: A Warner Bros. Discovery takeover would give the Ellisons and Paramount control of CNN, the global news network that is a fixture of Trump's rants against the media. He recently told reporters that he thinks it is \"imperative that CNN be sold.\"\n\nBut get this - David Ellison suggested that CNN would be merged with CBS News which had been included in the Paramount\u2013Skydance merger that was completed on August 7, 2025. And we already know what happened at CBS News: After acquiring CBS News, David Ellison made a series of changes to the organization that anonymous",
+      "audio_path": "demo/audio/cnn/turn_00_street_reporter.wav"
+    },
+    {
+      "agent": "Insider",
+      "text": "Ah, so that's where your sentence was headed before it got cut off \u2014 the \"anonymous\" changes at CBS are brutal cuts and hiring Bari Weiss as editor-in-chief! \n\nYou know what's delicious about this whole shell game? Ellison's already promised Trump he'll make \"sweeping changes to CNN\" if allowed to buy Warner, while simultaneously claiming he just wants to be \"in the trust business\" \u2014 classic billionaire speak for \"trust me while I gut your newsroom.\"\n\nAnd the CBS playbook is right there for everyone to see: slash nearly 100 positions, cancel streaming shows, close foreign bureaus, disband the race and culture unit. The man's been in charge for three months and he's already turned Walter Cronkite's network into Bari Weiss's vanity project.\n\nThe truly cynical part? They're not even hiding it anymore \u2014 Trump is personally involving himself in merger",
+      "audio_path": "demo/audio/cnn/turn_01_insider.wav"
+    },
+    {
+      "agent": "Street Reporter",
+      "text": "Exactly, you nailed it \u2014 and here's the part that should make every American's skin crawl: Paramount paid an astounding $150 million for The Free Press, a newsletter with 170,000 paid subscribers. That's about nine hundred bucks per subscriber to buy editorial control of Walter Cronkite's network.\n\nBut the real kicker? CBS News settled a defamation lawsuit with Trump for $16 million so that the Federal Communications Commission would approve the Paramount-Skydance merger. They literally paid Trump protection money to get this deal done, and Larry Ellison is a regular at the White House and Mar-a-Lago.\n\nThe layoffs you mentioned tell the whole story: The cuts primarily targeted racial minorities while white employees were simply shifted to other jobs, with around 100 employees lost, including eight on-air hosts, all of them women. This isn't cost-cutting \u2014 it's ideological housecleaning with a billionaire's checkbook.",
+      "audio_path": "demo/audio/cnn/turn_02_street_reporter.wav"
+    },
+    {
+      "agent": "Insider",
+      "text": "Nine hundred dollars per subscriber to buy Walter Cronkite's legacy? Christ, that's the most expensive editorial control purchase since Bezos bought the Washington Post for his space program's regulatory needs.\n\nAnd you're absolutely right \u2014 Elizabeth Warren called it \"bribery in plain sight\" and even ex-judges are saying CBS paid Trump \"protection money\" for FCC approval. The timing is so brazen it would make a Chicago alderman blush.\n\nWhat really gets me is Bill Owens, the 60 Minutes producer, quit saying his \"journalistic independence had been hamstrung\" \u2014 that's CBS code for \"we're editing stories to keep the bosses happy.\" When your own 60 Minutes producers are walking out the door, you know the rot has reached the core.\n\nCBS staffers are telling CNN there's \"great fear about what comes next\" \u2014 and they should be terrified, because Ellison's playbook at CBS shows exactly what's coming to CNN.",
+      "audio_path": "demo/audio/cnn/turn_03_insider.wav"
+    }
+  ]
+}
