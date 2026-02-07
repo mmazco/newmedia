@@ -24,8 +24,8 @@ Pick a publication. Two AI characters investigate who really owns it — pulling
 
 | Layer | Technology | Role |
 |-------|-----------|------|
-| Reasoning | **Claude** (claude-sonnet-4-20250514) | Agent personalities, web search, conversation generation |
-| Voice | **Cartesia TTS** (sonic-2) | Text-to-speech with distinct voices per character |
+| Reasoning | **Claude API** (claude-sonnet-4-20250514) | Agent personalities, web search, conversation generation |
+| Voice | **Cartesia TTS API** (sonic-2) | Text-to-speech with distinct voices per character |
 | Data | **Notion** database + JSON | Structured ownership data, queried at runtime |
 | Web Search | Claude `web_search_20250305` | Real-time ownership developments, current events |
 | Backend | **FastAPI** + Python | Orchestration, API endpoints |
