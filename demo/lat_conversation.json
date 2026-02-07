@@ -1,0 +1,26 @@
+{
+  "publication": "Los Angeles Times",
+  "owner": "Dr. Patrick Soon-Shiong",
+  "turns": [
+    {
+      "agent": "Street Reporter",
+      "text": "Here's who really owns the LA Times and what it means. Dr. Patrick Soon-Shiong bought this paper through his Nant Capital empire for $500 million in 2018, and he's been bleeding money ever since. The biotech billionaire promised to save California's largest newspaper, but instead he's turned it into his personal vanity project while losing $30 to $40 million a year.\n\nThis isn't just some passive investor \u2014 Soon-Shiong is actively intervening in editorial decisions like killing the Harris endorsement, installing his daughter Nika in editorial oversight, and now pushing some bizarre \"bias meter\" scheme. More than 20,000 readers dropped their subscriptions after he announced that bias meter nonsense.\n\nBut here's the kicker \u2014 after gutting the newsroom with 115 layoffs in January 2024 that cut more than 20 percent of the staff, Soon-Shiong now wants to take the paper public. ",
+      "audio_path": "demo/audio/lat/turn_00_street_reporter.wav"
+    },
+    {
+      "agent": "Insider",
+      "text": "Oh brilliant \u2014 he told Jon Stewart on \"The Daily Show\" that going public will \"allow it to be democratized and allow the public to have ownership of this paper.\" Right, because nothing screams democracy like a Regulation A+ offering capped at 75 million dollars when the thing's been hemorrhaging 30 to 40 million a year under his watch.\n\nHere's the gorgeous irony \u2014 he's pitching the LA Times as \"a combination of The New York Times, Twitch, and Vice at its peak\" while losing 48 million dollars last year and somehow this disaster is supposed to attract investors? The man's created \"Los Angeles Times Next Network\" with gaming and virtual production because clearly what struggling journalism needs is more corporate synergy buzzwords.\n\nAnd here's my favorite part \u2014 the Times doesn't even own its own building, it rents from Soon-Shiong",
+      "audio_path": "demo/audio/lat/turn_01_insider.wav"
+    },
+    {
+      "agent": "Street Reporter",
+      "text": "You nailed it perfectly. Soon-Shiong literally told Stewart he wants to \"democratize\" the paper while capping his Reg A offering at exactly $75 million \u2014 the same amount failing right-wing outlet Newsmax raised. That's his idea of democracy, apparently.\n\nAnd here's the beautiful part about the building situation \u2014 he relocated the Times from its landmark downtown headquarters to a building that he owns. So not only is he bleeding tens of millions annually, he's literally charging his own failing newspaper rent. He's already poured more than $750 million into this thing, and now he's taking $100 million of the new shares in exchange for forgiving a loan he made to the Times.\n\nThe man has turned his newspaper into his personal ATM machine. Those dividends alone would have eaten up 15 percent of last year's revenue \u2014 if he actually pays them in cash instead of more worthless stock. Who exactly is getting democratized here?",
+      "audio_path": "demo/audio/lat/turn_02_street_reporter.wav"
+    },
+    {
+      "agent": "Insider",
+      "text": "Ah, the perfect landlord-tenant grift! He relocated the newspaper from the Times Mirror Square, its landmark downtown headquarters, to its current building which he owns. Nothing says \"democratization\" like paying yourself rent on a $48 million loss while promising a 7% annual dividend that would've gobbled up fifteen percent of their entire revenue.\n\nAnd here's the beautiful part about his Regulation A+ scam \u2014 There is a $75 million limit on the amount raised in every 12-month period. So he's literally promising to \"democratize\" the paper while keeping it capped at pocket change for actual democracy. Meanwhile, Soon-Shiong will still control the voting stock. That's democracy, Soon-Shiong style \u2014 you get to pay for the privilege of watching him run it into the ground while he keeps all the power and charges himself rent!",
+      "audio_path": "demo/audio/lat/turn_03_insider.wav"
+    }
+  ]
+}

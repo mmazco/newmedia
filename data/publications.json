@@ -167,6 +167,39 @@
         "street_reporter": "Follow the Murdoch money - Fox News funds your business news source",
         "insider": "The Journal's newsroom hates admitting they share a boss with Fox & Friends"
       }
+    },
+    {
+      "id": "lat",
+      "name": "Los Angeles Times",
+      "owner": "Dr. Patrick Soon-Shiong",
+      "year_acquired": "2018",
+      "purchase_price": "$500 million",
+      "ownership_structure": "Private company, 100% owned by Soon-Shiong via Nant Capital",
+      "parent_company": "Nant Capital",
+      "conflicts_of_interest": [
+        "Billionaire biotech entrepreneur with pharmaceutical and healthcare investments",
+        "NantHealth and NantKwest have contracts with government health agencies",
+        "Personal political donations to both parties — positioned as centrist but increasingly interventionist",
+        "Daughter Nika Soon-Shiong installed as executive in editorial leadership role"
+      ],
+      "recent_controversies": [
+        "Oct 2024: Killed presidential endorsement of Kamala Harris — same week as Bezos at Washington Post",
+        "Endorsement kill led to mass subscriber cancellations and staff protests",
+        "Editorial page editor resigned over endorsement decision",
+        "Jan 2025: Massive layoffs cutting 20% of newsroom",
+        "Accused of installing daughter with no journalism experience into editorial oversight",
+        "Staff described management as 'chaos' with owner making impulsive editorial decisions"
+      ],
+      "ground_news_rating": {
+        "bias": "Leans Left (historically), shifting under owner intervention",
+        "factuality": "High",
+        "ownership_category": "Billionaire-owned independent"
+      },
+      "current_status": "Billionaire-owned paper in editorial crisis, mirroring Washington Post trajectory",
+      "voice_agent_angles": {
+        "street_reporter": "West Coast Bezos — biotech billionaire kills endorsements, installs family, guts newsroom",
+        "insider": "Soon-Shiong bought the LA Times like a vanity project and is running it like one"
+      }
     }
   ],
   "metadata": {
