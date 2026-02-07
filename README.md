@@ -1,4 +1,4 @@
-# Follow the Money
+# Follow the Money Series
 
 **"Who funds corporate media?" with your favorite hosts.**
 
