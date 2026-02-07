@@ -2,7 +2,7 @@
 
 **"Who funds corporate media?" with your favorite hosts.**
 
-Two AI-powered characters — Andrew (investigative reporter) and FJ (media industry insider) — investigate the ownership structures behind major news publications using real-time data, then debate what it means for journalism and democracy.
+Two agents — Andrew (investigative reporter) and FJ (media industry insider) — investigate the ownership structures behind major news publications using real-time data, then debate what it means for journalism and democracy.
 
 Built for the [Cartesia x Anthropic Voice Agents Hackathon](https://cerebralvalley.ai/e/cartesia-voice-agents-hackathon) (SF, Feb 2026).
 
@@ -15,7 +15,7 @@ Pick a publication. Two AI characters investigate who really owns it — pulling
 **5 publications covered:** The Washington Post, Fox News, CNN, The New York Times, The Wall Street Journal
 
 **What makes it different:**
-- Characters have real personalities, not generic AI voices
+- Characters have real personalities with selected voice from Cartesia's library
 - Conversations reference events from *this week* via live web search
 - Ownership data cross-referenced from curated dataset + Notion database + web
 - Bias and factuality ratings sourced from [Ground News](https://ground.news/)
