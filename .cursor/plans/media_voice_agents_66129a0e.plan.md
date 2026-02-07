@@ -43,7 +43,7 @@ todos:
     status: pending
   - id: finalize-documentation
     content: Complete README, setup instructions, and open source preparation
-    status: in_progress
+    status: completed
 isProject: false
 ---
 

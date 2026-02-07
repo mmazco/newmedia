@@ -131,11 +131,15 @@ python server.py
 │   └── notion_client.py       # Notion database reader
 ├── data/
 │   └── publications.json      # Curated ownership dataset (5 publications)
+├── assets/
+│   ├── andrew-street-reporter-agent2.png  # Andrew character image
+│   ├── fonejacker-insider-agent2.webp     # FJ character image
+│   └── Öland, Lars Tunbjörk (1991).jpeg   # Footer artwork
 ├── web/
 │   ├── index.html             # Frontend
 │   ├── style.css              # Editorial design
 │   ├── app.js                 # UI logic + audio playback
-│   └── assets/                # Character images, favicon
+│   └── assets/                # Web-optimized images, favicon
 ├── demo/                      # Pre-baked conversations with audio
 ├── test_basic.py              # API smoke test
 └── migrate_to_notion.py       # Notion database migration
