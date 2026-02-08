@@ -12,7 +12,7 @@ Built for the [Cartesia x Anthropic Voice Agents Hackathon](https://cerebralvall
 
 Pick a publication. Two AI characters investigate who really owns it — pulling live ownership data, government contracts, recent controversies — then discuss their findings with distinct voices and personalities.
 
-**5 publications covered:** The Washington Post, Fox News, CNN, The New York Times, The Wall Street Journal
+**6 publications covered:** The Washington Post, Fox News, CNN, The New York Times, The Wall Street Journal, Los Angeles Times 
 
 **What makes it different:**
 - Characters have real personalities with selected voice from Cartesia's library
