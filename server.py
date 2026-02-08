@@ -14,6 +14,10 @@ load_dotenv()
 
 app = FastAPI(title="Follow the Money")
 
+# Ensure directories exist (needed for Railway where gitignored dirs are missing)
+os.makedirs("audio_output", exist_ok=True)
+os.makedirs("demo/audio", exist_ok=True)
+
 # Serve static files
 app.mount("/demo", StaticFiles(directory="demo"), name="demo")
 app.mount("/audio_output", StaticFiles(directory="audio_output"), name="audio_output")

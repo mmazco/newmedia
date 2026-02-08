@@ -4,11 +4,13 @@ venv/
 __pycache__/
 *.pyc
 
-# Audio output
-*.wav
+# Audio output (temp files)
+audio_output/
 *.mp3
 *.raw
-audio_output/
+
+# Keep demo audio for deployment
+!demo/audio/**/*.wav
 
 # IDE
 .vscode/
